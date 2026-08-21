@@ -1,0 +1,24 @@
+/it-230-journal
+│ README.md
+│ Sanchez_Nathan_ConsoleRgisterStudent_IT230_FinalProjectPartI (2).docx
+│ Sanchez_Nathan_wpfregisterstudent.docx
+1. Briefly summarize the requirements and goals of the application you developed. What user needs was this application designed to address?
+The goal of the application was to create a simple student‑registration system in two formats: a Console application and a WPF application. Both versions needed to collect basic student information, validate the input, and display a confirmation message showing that the student was successfully registered. The requirements emphasized working with existing starter code, implementing changes based on software documentation, and writing new logic from scratch. The user need behind this project was clarity and ease of use — the app had to make data entry straightforward, prevent invalid input, and give immediate feedback so users could trust that their information was processed correctly.
+
+2. What did you do particularly well in developing this application?
+I did especially well in organizing the code and keeping the logic clean and readable. In the WPF version, I connected UI controls to event handlers in a way that made the flow intuitive and easy to follow. I also handled user input carefully, making sure the program responded with clear messages and behaved consistently. Another strength was my attention to detail in preparing the submission: including screenshots, formatting the source code, and ensuring the output matched the project requirements (such as displaying my last name first). Overall, I demonstrated strong foundational skills in both C# and Visual Studio.
+
+3. Compare and contrast the Console and WPF application designs. What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+The Console application focused on linear interaction — the user typed information step‑by‑step and received text‑based feedback. It was simple, but it required users to follow instructions carefully and rely on typed commands.
+
+The WPF application, on the other hand, provided a graphical interface with text boxes, labels, and a button. This design supported user needs more effectively because it allowed users to see all required fields at once, understand what information was needed, and interact with the app visually. The button click event created a clear action point, and the MessageBox gave immediate confirmation.
+
+My UI design kept users in mind by minimizing confusion, reducing typing errors, and presenting a clean layout with only the essential elements. The design was successful because it made the registration process faster, more intuitive, and more accessible — especially for users who prefer visual interfaces over command‑line interaction.
+
+4. How did you approach the process of debugging and coding your application? What techniques or strategies did you use? How could you use those techniques or strategies in the future?
+I approached debugging by testing small pieces of functionality as I built them. In Visual Studio, I used breakpoints and watched variable values to confirm that the event handlers and input fields were behaving correctly. When something didn’t work, I traced the logic step‑by‑step instead of trying to fix everything at once. I also relied on clear naming conventions and organized code structure, which made it easier to spot mistakes.
+
+These strategies — incremental testing, using breakpoints, and writing clean code — are techniques I can continue using in future projects. They help prevent bugs from piling up and make troubleshooting much more manageable.
+
+5. Where did you have to be innovative to overcome a challenge in the full application development process?
+One challenge was adapting the Console‑based logic into a WPF interface while keeping the behavior consistent. I had to think creatively about how to translate text‑based prompts into visual UI elements and how to trigger the same logic through button clicks instead of typed commands. Another challenge was meeting the submission requirements, such as displaying my last name first in the output and preparing clean screenshots. I solved these by modifying the MessageBox output and organizing my project files carefully. These small but important innovations helped ensure the final submission was polished, functional, and aligned with the project goals.
